@@ -30,5 +30,9 @@ VoxGuion.
 ## Favicon / app-icon assets
 
 - `assets/images/favicon.png`, `assets/images/apple-touch-icon.png`, and root `favicon.ico`
-  are the site icons, sourced from the VoxGuion app icon. `_includes/head.html`
-  references the first two; keep them present or the live site 404s on its favicon.
+  are the site icons. `_includes/head.html` references the first two; keep them present or
+  the live site 404s on its favicon.
+- **These icons (and the og-image/screenshots) are intentionally the original Produciesta
+  artwork**, carried over from the pre-rename site. Per an explicit owner decision
+  (2026-08-24), keep them until specifically told to replace them with VoxGuion artwork —
+  do not flag them as stale or regenerate them.
