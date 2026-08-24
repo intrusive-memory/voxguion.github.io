@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body class="{% if page.body_class %}{{ page.body_class }}{% endif %}">
+  {% include header.html %}
+  {% include coming-soon-overlay.html %}
+  <main class="main-content">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

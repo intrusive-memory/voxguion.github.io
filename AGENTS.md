@@ -1,0 +1,34 @@
+---
+type: doc
+---
+
+# VoxGuion Website
+
+## About this repository
+
+This is the **public marketing website for the VoxGuion app** — a screenplay-to-audio
+podcast production tool for macOS, iOS, and the command line. The site is a Jekyll project
+served at **https://voxguion.app** (see `CNAME`) and deployed via **legacy GitHub Pages
+from the `main` branch**. Static assets (including the favicon/app-icon set) are served
+directly from this repo under `/assets`.
+
+This repo is the *website only* — the VoxGuion application source lives separately.
+Sibling app websites, **Viñetas** (https://vinetas.app) and the prior-branding
+**Produciesta** site (https://produciesta.app), are maintained the same way in their
+own repos. This site supersedes the Produciesta site as part of the app's rename to
+VoxGuion.
+
+> **Remotes note:** `origin` points at `intrusive-memory/voxguion.github.io` (this
+> website). The app's Swift monorepo lives at `intrusive-memory/voxguion` and is wired
+> here as the `app-monorepo` remote — do **not** push website history to it.
+
+## Branch & release flow
+
+- Work on `development`; open a `development → main` PR to release.
+- Merging to `main` publishes the live site via GitHub Pages.
+
+## Favicon / app-icon assets
+
+- `assets/images/favicon.png`, `assets/images/apple-touch-icon.png`, and root `favicon.ico`
+  are the site icons, sourced from the VoxGuion app icon. `_includes/head.html`
+  references the first two; keep them present or the live site 404s on its favicon.

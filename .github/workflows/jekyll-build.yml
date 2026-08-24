@@ -1,0 +1,42 @@
+name: Jekyll Build Test
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [development]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --strict_front_matter
+        env:
+          JEKYLL_ENV: production
+
+      - name: Verify build output
+        run: |
+          echo "Checking for required pages..."
+          test -f _site/index.html || (echo "Missing index.html" && exit 1)
+          test -f _site/pricing/index.html || (echo "Missing pricing page" && exit 1)
+          test -f _site/privacy/index.html || (echo "Missing privacy page" && exit 1)
+          test -f _site/terms/index.html || (echo "Missing terms page" && exit 1)
+          test -f _site/support/index.html || (echo "Missing support page" && exit 1)
+          test -f _site/press-kit/index.html || (echo "Missing press-kit page" && exit 1)
+          test -f _site/docs/index.html || (echo "Missing docs index" && exit 1)
+          test -f _site/sitemap.xml || (echo "Missing sitemap.xml" && exit 1)
+          echo "All required pages present!"

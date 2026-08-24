@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ozxmlscene>
+<ozml version="5.2">
+
+<factory id="1" uuid="712462a4323911d78f8400039389b702">
+	<description>Shape</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="2" uuid="10405f52139811d8b4db000a95af9f7e">
+	<description>Channel</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="3" uuid="0e8d443513b611d89395000a95af9f7e">
+	<description>Channel</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="4" uuid="27f3ee8b229211d7925a00039389b702">
+	<description>Channel</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="5" uuid="558f10b4a1c011d7998900039389b702">
+	<description>Channel</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="6" uuid="878a64bd193011d8bac3000a95af9f7e">
+	<description>Channel</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="7" uuid="fdc1944b229111d7b1c300039389b702">
+	<description>Channel</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="8" uuid="babfc7777f4711d7aaa7000393833f6a">
+	<description>Text</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="9" uuid="044beba5ad3211d7ac9b000393833f6a">
+	<description>Style</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="10" uuid="66fc0d6af6a911d6a7a7000393670732">
+	<description>Image</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="11" uuid="0dcc884c286f11d8ab08000a9598188a">
+	<description>Image Mask</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="12" uuid="deca4859b16011d7a12d0003936f6f92">
+	<description>ProPlugin Filter</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="13" uuid="6b337e9c21aa11d7a08700039375d2ba">
+	<description>Output</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<scene>
+	<sceneSettings>
+		<width>1400</width>
+		<height>900</height>
+		<duration>250</duration>
+		<frameRate>25</frameRate>
+		<NTSC>0</NTSC>
+		<pixelAspectRatio>1</pixelAspectRatio>
+		<fieldRenderingMode>0</fieldRenderingMode>
+		<presetPath></presetPath>
+	</sceneSettings>
+	<timeRange offset="0 1 1 0" duration="1536000 153600 1 0"/>
+	<layer name="Group" id="10000">
+		<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+		<parameter name="Properties" id="1">
+			<parameter name="Blending" id="200">
+				<parameter name="Blend Mode" id="203" value="0"/>
+			</parameter>
+		</parameter>
+		<scenenode name="The code is disposable.…" id="10001" factoryID="8" version="5">
+			<aspectRatio>1</aspectRatio>
+			<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+			<parameter name="Properties" id="1">
+				<parameter name="Transform" id="100">
+					<parameter name="Position" id="101">
+						<parameter name="X" id="1" value="-299.5"/>
+						<parameter name="Y" id="2" value="-407"/>
+					</parameter>
+				</parameter>
+				<parameter name="Blending" id="200">
+					<parameter name="Opacity" id="202" value="0"/>
+				</parameter>
+			</parameter>
+			<paragraphStyle id="10002">
+				<parameter name="Alignment" id="401" value="1"/>
+			</paragraphStyle>
+			<style name="Style 0" id="10003" factoryID="9">
+				<parameter name="Font" id="83">
+					<font>Futura-Medium</font>
+				</parameter>
+				<parameter name="Size" id="3" value="18"/>
+				<parameter name="Face" id="14">
+					<parameter name="Color" id="16">
+						<parameter name="Red" id="1" value="0.752941"/>
+						<parameter name="Green" id="2" value="0.815686"/>
+						<parameter name="Blue" id="3" value="0.784314"/>
+						<parameter name="Color Space" id="11" value="3"/>
+					</parameter>
+					<parameter name="Opacity" id="19" value="1"/>
+				</parameter>
+			</style>
+			<styleRun style="10003" offset="0" length="58"/>
+			<parameter name="Object" id="2">
+				<parameter name="Text" id="369">
+					<text>The code is disposable. The specification is the product. </text>
+				</parameter>
+				<parameter name="Alignment" id="373">
+					<parameter name="Vertical Alignment" id="2" value="1"/>
+				</parameter>
+				<parameter name="Paragraphs" id="354">
+					<parameter name="Paragraph" id="10002">
+						<parameter name="Alignment" id="401" value="1"/>
+					</parameter>
+				</parameter>
+			</parameter>
+		</scenenode>
+		<layer name="Group" id="10004">
+			<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+			<foldFlags>1</foldFlags>
+			<parameter name="Properties" id="1">
+				<parameter name="Blending" id="200">
+					<parameter name="Opacity" id="202" value="0"/>
+				</parameter>
+			</parameter>
+			<scenenode name="METHODOLOGY" id="10005" factoryID="8" version="5">
+				<aspectRatio>1</aspectRatio>
+				<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+				<parameter name="Properties" id="1">
+					<parameter name="Transform" id="100">
+						<parameter name="Position" id="101">
+							<parameter name="X" id="1" value="-569.5"/>
+							<parameter name="Y" id="2" value="-319.5"/>
+						</parameter>
+					</parameter>
+				</parameter>
+				<paragraphStyle id="10006">
+					<parameter name="Alignment" id="401" value="1"/>
+				</paragraphStyle>
+				<style name="Style 0" id="10007" factoryID="9">
+					<parameter name="Font" id="83">
+						<font>Futura-Medium</font>
+					</parameter>
+					<parameter name="Size" id="3" value="11"/>
+					<parameter name="Face" id="14">
+						<parameter name="Color" id="16">
+							<parameter name="Red" id="1" value="0.909804"/>
+							<parameter name="Green" id="2" value="0.298039"/>
+							<parameter name="Blue" id="3" value="0.239216"/>
+							<parameter name="Color Space" id="11" value="3"/>
+						</parameter>
+						<parameter name="Opacity" id="19" value="1"/>
+					</parameter>
+				</style>
+				<styleRun style="10007" offset="0" length="11"/>
+				<parameter name="Object" id="2">
+					<parameter name="Text" id="369">
+						<text>METHODOLOGY</text>
+					</parameter>
+					<parameter name="Alignment" id="373">
+						<parameter name="Vertical Alignment" id="2" value="1"/>
+					</parameter>
+					<parameter name="Paragraphs" id="354">
+						<parameter name="Paragraph" id="10006">
+							<parameter name="Alignment" id="401" value="1"/>
+						</parameter>
+					</parameter>
+				</parameter>
+			</scenenode>
+			<scenenode name="RODILLO LISO" id="10008" factoryID="8" version="5">
+				<aspectRatio>1</aspectRatio>
+				<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+				<parameter name="Properties" id="1">
+					<parameter name="Transform" id="100">
+						<parameter name="Position" id="101">
+							<parameter name="X" id="1" value="-570"/>
+							<parameter name="Y" id="2" value="-302.5"/>
+						</parameter>
+					</parameter>
+				</parameter>
+				<paragraphStyle id="10009">
+					<parameter name="Alignment" id="401" value="1"/>
+				</paragraphStyle>
+				<style name="Style 0" id="10010" factoryID="9">
+					<parameter name="Font" id="83">
+						<font>Futura-Medium</font>
+					</parameter>
+					<parameter name="Spacing" id="81">
+						<parameter name="Tracking" id="79" value="0.083333"/>
+					</parameter>
+					<parameter name="Size" id="3" value="12"/>
+					<parameter name="Face" id="14">
+						<parameter name="Color" id="16">
+							<parameter name="Red" id="1" value="0.909804"/>
+							<parameter name="Green" id="2" value="0.298039"/>
+							<parameter name="Blue" id="3" value="0.239216"/>
+							<parameter name="Color Space" id="11" value="3"/>
+						</parameter>
+						<parameter name="Opacity" id="19" value="1"/>
+					</parameter>
+				</style>
+				<styleRun style="10010" offset="0" length="12"/>
+				<parameter name="Object" id="2">
+					<parameter name="Text" id="369">
+						<text>RODILLO LISO</text>
+					</parameter>
+					<parameter name="Alignment" id="373">
+						<parameter name="Vertical Alignment" id="2" value="1"/>
+					</parameter>
+					<parameter name="Paragraphs" id="354">
+						<parameter name="Paragraph" id="10009">
+							<parameter name="Alignment" id="401" value="1"/>
+						</parameter>
+					</parameter>
+				</parameter>
+			</scenenode>
+			<scenenode name="Path" id="10011" factoryID="1" version="5">
+				<aspectRatio>1</aspectRatio>
+				<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+				<parameter name="Properties" id="1">
+					<parameter name="Transform" id="100">
+						<parameter name="Position" id="101">
+							<parameter name="X" id="1" value="-570"/>
+							<parameter name="Y" id="2" value="-310"/>
+						</parameter>
+					</parameter>
+				</parameter>
+				<parameter name="Object" id="2">
+					<parameter name="Shape" id="353">
+						<parameter name="Animation" id="117" value="0">
+							<curve_X>
+								<vertex index="0" id="10012" flags="169">
+									<vertex_folder name="Vertex" id="10012">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="42"/>
+										<parameter name="Input Tangent" id="4" value="0"/>
+										<parameter name="Output Tangent" id="5" value="0"/>
+									</vertex_folder>
+								</vertex>
+								<vertex index="1" id="10014" flags="169">
+									<vertex_folder name="Vertex" id="10014">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="0"/>
+										<parameter name="Input Tangent" id="4" value="23.195953"/>
+										<parameter name="Output Tangent" id="5" value="-23.195961"/>
+									</vertex_folder>
+								</vertex>
+								<vertex index="2" id="10016" flags="169">
+									<vertex_folder name="Vertex" id="10016">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="-42"/>
+										<parameter name="Input Tangent" id="4" value="0"/>
+										<parameter name="Output Tangent" id="5" value="0"/>
+									</vertex_folder>
+								</vertex>
+								<vertex index="3" id="10018" flags="169">
+									<vertex_folder name="Vertex" id="10018">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="0"/>
+										<parameter name="Input Tangent" id="4" value="-23.195961"/>
+										<parameter name="Output Tangent" id="5" value="23.195953"/>
+									</vertex_folder>
+								</vertex>
+							</curve_X>
+							<curve_Y>
+								<vertex index="0" id="10013" flags="169">
+									<vertex_folder name="Vertex" id="10013">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="0"/>
+										<parameter name="Input Tangent" id="4" value="23.195953"/>
+										<parameter name="Output Tangent" id="5" value="-23.195961"/>
+									</vertex_folder>
+								</vertex>
+								<vertex index="1" id="10015" flags="169">
+									<vertex_folder name="Vertex" id="10015">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="-42"/>
+										<parameter name="Input Tangent" id="4" value="0"/>
+										<parameter name="Output Tangent" id="5" value="0"/>
+									</vertex_folder>
+								</vertex>
+								<vertex index="2" id="10017" flags="169">
+									<vertex_folder name="Vertex" id="10017">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="0"/>
+										<parameter name="Input Tangent" id="4" value="-23.195961"/>
+										<parameter name="Output Tangent" id="5" value="23.195953"/>
+									</vertex_folder>
+								</vertex>
+								<vertex index="3" id="10019" flags="169">
+									<vertex_folder name="Vertex" id="10019">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="42"/>
+										<parameter name="Input Tangent" id="4" value="0"/>
+										<parameter name="Output Tangent" id="5" value="0"/>
+									</vertex_folder>
+								</vertex>
+							</curve_Y>
+							<closed>1</closed>
+						</parameter>
+						<parameter name="Closed" id="116" value="1"/>
+						<parameter name="Fill" id="113" flags="8589971472">
+							<parameter name="Fill Color" id="111"/>
+						</parameter>
+						<parameter name="Outline" id="108" flags="8589938704">
+							<parameter name="Brush Color" id="107">
+								<parameter name="Red" id="1" value="0.909804"/>
+								<parameter name="Green" id="2" value="0.298039"/>
+								<parameter name="Blue" id="3" value="0.239216"/>
+								<parameter name="Color Space" id="11" value="3"/>
+							</parameter>
+							<parameter name="Width" id="105" value="1"/>
+							<parameter name="Joint" id="112" value="0"/>
+							<parameter name="Start Cap" id="119" value="4"/>
+							<parameter name="End Cap" id="134" value="4"/>
+							<parameter name="Brush Opacity" id="142" value="1"/>
+						</parameter>
+					</parameter>
+				</parameter>
+			</scenenode>
+			<scenenode name="Path" id="10020" factoryID="1" version="5">
+				<aspectRatio>1</aspectRatio>
+				<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+				<parameter name="Properties" id="1">
+					<parameter name="Transform" id="100">
+						<parameter name="Position" id="101">
+							<parameter name="X" id="1" value="-570"/>
+							<parameter name="Y" id="2" value="-310"/>
+						</parameter>
+					</parameter>
+				</parameter>
+				<parameter name="Object" id="2">
+					<parameter name="Shape" id="353">
+						<parameter name="Animation" id="117" value="0">
+							<curve_X>
+								<vertex index="0" id="10021" flags="169">
+									<vertex_folder name="Vertex" id="10021">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="50"/>
+										<parameter name="Input Tangent" id="4" value="0"/>
+										<parameter name="Output Tangent" id="5" value="0"/>
+									</vertex_folder>
+								</vertex>
+								<vertex index="1" id="10023" flags="169">
+									<vertex_folder name="Vertex" id="10023">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="0"/>
+										<parameter name="Input Tangent" id="4" value="27.614243"/>
+										<parameter name="Output Tangent" id="5" value="-27.614235"/>
+									</vertex_folder>
+								</vertex>
+								<vertex index="2" id="10025" flags="169">
+									<vertex_folder name="Vertex" id="10025">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="-50"/>
+										<parameter name="Input Tangent" id="4" value="0"/>
+										<parameter name="Output Tangent" id="5" value="0"/>
+									</vertex_folder>
+								</vertex>
+								<vertex index="3" id="10027" flags="169">
+									<vertex_folder name="Vertex" id="10027">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="0"/>
+										<parameter name="Input Tangent" id="4" value="-27.614235"/>
+										<parameter name="Output Tangent" id="5" value="27.614243"/>
+									</vertex_folder>
+								</vertex>
+							</curve_X>
+							<curve_Y>
+								<vertex index="0" id="10022" flags="169">
+									<vertex_folder name="Vertex" id="10022">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="0"/>
+										<parameter name="Input Tangent" id="4" value="27.614243"/>
+										<parameter name="Output Tangent" id="5" value="-27.614235"/>
+									</vertex_folder>
+								</vertex>
+								<vertex index="1" id="10024" flags="169">
+									<vertex_folder name="Vertex" id="10024">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="-50"/>
+										<parameter name="Input Tangent" id="4" value="0"/>
+										<parameter name="Output Tangent" id="5" value="0"/>
+									</vertex_folder>
+								</vertex>
+								<vertex index="2" id="10026" flags="169">
+									<vertex_folder name="Vertex" id="10026">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="0"/>
+										<parameter name="Input Tangent" id="4" value="-27.614235"/>
+										<parameter name="Output Tangent" id="5" value="27.614243"/>
+									</vertex_folder>
+								</vertex>
+								<vertex index="3" id="10028" flags="169">
+									<vertex_folder name="Vertex" id="10028">
+										<parameter name="Enabled" id="1" value="1"/>
+										<parameter name="Value" id="2" value="50"/>
+										<parameter name="Input Tangent" id="4" value="0"/>
+										<parameter name="Output Tangent" id="5" value="0"/>
+									</vertex_folder>
+								</vertex>
+							</curve_Y>
+							<closed>1</closed>
+						</parameter>
+						<parameter name="Closed" id="116" value="1"/>
+						<parameter name="Fill" id="113" flags="8589938704">
+							<parameter name="Fill Color" id="111">
+								<parameter name="Red" id="1" value="0.039216"/>
+								<parameter name="Green" id="2" value="0.101961"/>
+								<parameter name="Blue" id="3" value="0.101961"/>
+								<parameter name="Color Space" id="11" value="3"/>
+							</parameter>
+							<parameter name="Fill Opacity" id="141" value="0.498039"/>
+						</parameter>
+						<parameter name="Outline" id="108" flags="8589938704">
+							<parameter name="Brush Color" id="107">
+								<parameter name="Red" id="1" value="0.909804"/>
+								<parameter name="Green" id="2" value="0.298039"/>
+								<parameter name="Blue" id="3" value="0.239216"/>
+								<parameter name="Color Space" id="11" value="3"/>
+							</parameter>
+							<parameter name="Width" id="105" value="2"/>
+							<parameter name="Joint" id="112" value="0"/>
+							<parameter name="Start Cap" id="119" value="4"/>
+							<parameter name="End Cap" id="134" value="4"/>
+							<parameter name="Brush Opacity" id="142" value="1"/>
+						</parameter>
+					</parameter>
+				</parameter>
+			</scenenode>
+		</layer>
+		<layer name="Group" id="10029">
+			<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+			<foldFlags>1</foldFlags>
+			<parameter name="Properties" id="1">
+				<parameter name="Blending" id="200">
+					<parameter name="Opacity" id="202" value="0"/>
+				</parameter>
+			</parameter>
+			<scenenode name="Intrusive Memory Productions" id="10030" factoryID="8" version="5">
+				<aspectRatio>1</aspectRatio>
+				<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+				<parameter name="Properties" id="1">
+					<parameter name="Transform" id="100">
+						<parameter name="Position" id="101">
+							<parameter name="X" id="1" value="-624"/>
+							<parameter name="Y" id="2" value="-159"/>
+						</parameter>
+					</parameter>
+				</parameter>
+				<paragraphStyle id="10031">
+					<parameter name="Alignment" id="401" value="0"/>
+				</paragraphStyle>
+				<style name="Style 0" id="10032" factoryID="9">
+					<parameter name="Font" id="83">
+						<font>Futura-Medium</font>
+					</parameter>
+					<parameter name="Size" id="3" value="18"/>
+					<parameter name="Face" id="14">
+						<parameter name="Color" id="16">
+							<parameter name="Red" id="1" value="0.627451"/>
+							<parameter name="Green" id="2" value="0.721569"/>
+							<parameter name="Blue" id="3" value="0.690196"/>
+							<parameter name="Color Space" id="11" value="3"/>
+						</parameter>
+						<parameter name="Opacity" id="19" value="1"/>
+					</parameter>
+				</style>
+				<styleRun style="10032" offset="0" length="28"/>
+				<parameter name="Object" id="2">
+					<parameter name="Text" id="369">
+						<text>Intrusive Memory Productions</text>
+					</parameter>
+					<parameter name="Alignment" id="373">
+						<parameter name="Vertical Alignment" id="2" value="1"/>
+					</parameter>
+					<parameter name="Paragraphs" id="354">
+						<parameter name="Paragraph" id="10031">
+							<parameter name="Alignment" id="401" value="0"/>
+						</parameter>
+					</parameter>
+				</parameter>
+			</scenenode>
+			<scenenode name="Casting Software Spells" id="10033" factoryID="8" version="5">
+				<aspectRatio>1</aspectRatio>
+				<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+				<parameter name="Properties" id="1">
+					<parameter name="Transform" id="100">
+						<parameter name="Position" id="101">
+							<parameter name="X" id="1" value="-624"/>
+							<parameter name="Y" id="2" value="-127.5"/>
+						</parameter>
+					</parameter>
+				</parameter>
+				<paragraphStyle id="10034">
+					<parameter name="Alignment" id="401" value="0"/>
+				</paragraphStyle>
+				<style name="Style 0" id="10035" factoryID="9">
+					<parameter name="Font" id="83">
+						<font>Futura-Medium</font>
+					</parameter>
+					<parameter name="Size" id="3" value="24"/>
+					<parameter name="Face" id="14">
+						<parameter name="Color" id="16">
+							<parameter name="Red" id="1" value="0.960784"/>
+							<parameter name="Green" id="2" value="0.901961"/>
+							<parameter name="Blue" id="3" value="0.815686"/>
+							<parameter name="Color Space" id="11" value="3"/>
+						</parameter>
+						<parameter name="Opacity" id="19" value="1"/>
+					</parameter>
+				</style>
+				<styleRun style="10035" offset="0" length="23"/>
+				<parameter name="Object" id="2">
+					<parameter name="Text" id="369">
+						<text>Casting Software Spells</text>
+					</parameter>
+					<parameter name="Alignment" id="373">
+						<parameter name="Vertical Alignment" id="2" value="1"/>
+					</parameter>
+					<parameter name="Paragraphs" id="354">
+						<parameter name="Paragraph" id="10034">
+							<parameter name="Alignment" id="401" value="0"/>
+						</parameter>
+					</parameter>
+				</parameter>
+			</scenenode>
+			<scenenode name="Episode 01" id="10036" factoryID="8" version="5">
+				<aspectRatio>1</aspectRatio>
+				<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+				<parameter name="Properties" id="1">
+					<parameter name="Transform" id="100">
+						<parameter name="Position" id="101">
+							<parameter name="X" id="1" value="-624"/>
+							<parameter name="Y" id="2" value="-92"/>
+						</parameter>
+					</parameter>
+				</parameter>
+				<paragraphStyle id="10037">
+					<parameter name="Alignment" id="401" value="0"/>
+				</paragraphStyle>
+				<style name="Style 0" id="10038" factoryID="9">
+					<parameter name="Font" id="83">
+						<font>Futura-Medium</font>
+					</parameter>
+					<parameter name="Size" id="3" value="22"/>
+					<parameter name="Face" id="14">
+						<parameter name="Color" id="16">
+							<parameter name="Red" id="1" value="0.831373"/>
+							<parameter name="Green" id="2" value="0.647059"/>
+							<parameter name="Blue" id="3" value="0.454902"/>
+							<parameter name="Color Space" id="11" value="3"/>
+						</parameter>
+						<parameter name="Opacity" id="19" value="1"/>
+					</parameter>
+				</style>
+				<styleRun style="10038" offset="0" length="10"/>
+				<parameter name="Object" id="2">
+					<parameter name="Text" id="369">
+						<text>Episode 01</text>
+					</parameter>
+					<parameter name="Alignment" id="373">
+						<parameter name="Vertical Alignment" id="2" value="1"/>
+					</parameter>
+					<parameter name="Paragraphs" id="354">
+						<parameter name="Paragraph" id="10037">
+							<parameter name="Alignment" id="401" value="0"/>
+						</parameter>
+					</parameter>
+				</parameter>
+			</scenenode>
+		</layer>
+		<scenenode name="Path" id="10039" factoryID="1" version="5">
+			<aspectRatio>1</aspectRatio>
+			<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+			<parameter name="Properties" id="1">
+				<parameter name="Transform" id="100">
+					<parameter name="Position" id="101">
+						<parameter name="X" id="1" value="-620"/>
+						<parameter name="Y" id="2" value="-40"/>
+					</parameter>
+				</parameter>
+			</parameter>
+			<parameter name="Object" id="2">
+				<parameter name="Shape" id="353">
+					<parameter name="Animation" id="117" value="0">
+						<curve_X>
+							<vertex index="0" id="10040" flags="169">
+								<vertex_folder name="Vertex" id="10040">
+									<parameter name="Enabled" id="1" value="1"/>
+									<parameter name="Value" id="2" value="0"/>
+									<parameter name="Input Tangent" id="4" value="0"/>
+									<parameter name="Output Tangent" id="5" value="0"/>
+								</vertex_folder>
+							</vertex>
+							<vertex index="1" id="10042" flags="169">
+								<vertex_folder name="Vertex" id="10042">
+									<parameter name="Enabled" id="1" value="1"/>
+									<parameter name="Value" id="2" value="0"/>
+									<parameter name="Input Tangent" id="4" value="0"/>
+									<parameter name="Output Tangent" id="5" value="0"/>
+								</vertex_folder>
+							</vertex>
+						</curve_X>
+						<curve_Y>
+							<vertex index="0" id="10041" flags="169">
+								<vertex_folder name="Vertex" id="10041">
+									<parameter name="Enabled" id="1" value="1"/>
+									<parameter name="Value" id="2" value="0"/>
+									<parameter name="Input Tangent" id="4" value="0"/>
+									<parameter name="Output Tangent" id="5" value="0"/>
+								</vertex_folder>
+							</vertex>
+							<vertex index="1" id="10043" flags="169">
+								<vertex_folder name="Vertex" id="10043">
+									<parameter name="Enabled" id="1" value="1"/>
+									<parameter name="Value" id="2" value="0"/>
+									<parameter name="Input Tangent" id="4" value="0"/>
+									<parameter name="Output Tangent" id="5" value="0"/>
+								</vertex_folder>
+							</vertex>
+						</curve_Y>
+					</parameter>
+					<parameter name="Fill" id="113" flags="8589938704">
+						<parameter name="Fill Color" id="111">
+							<parameter name="Red" id="1" value="0"/>
+							<parameter name="Green" id="2" value="0"/>
+							<parameter name="Blue" id="3" value="0"/>
+							<parameter name="Color Space" id="11" value="3"/>
+						</parameter>
+						<parameter name="Fill Opacity" id="141" value="1"/>
+					</parameter>
+					<parameter name="Outline" id="108" flags="8589938704">
+						<parameter name="Brush Color" id="107">
+							<parameter name="Red" id="1" value="0.831373"/>
+							<parameter name="Green" id="2" value="0.647059"/>
+							<parameter name="Blue" id="3" value="0.454902"/>
+							<parameter name="Color Space" id="11" value="3"/>
+						</parameter>
+						<parameter name="Width" id="105" value="2"/>
+						<parameter name="Joint" id="112" value="0"/>
+						<parameter name="Start Cap" id="119" value="4"/>
+						<parameter name="End Cap" id="134" value="4"/>
+						<parameter name="Brush Opacity" id="142" value="1"/>
+					</parameter>
+				</parameter>
+			</parameter>
+		</scenenode>
+		<scenenode name="SwiftSecuencia x Pipeline Neo…" id="10044" factoryID="8" version="5">
+			<aspectRatio>1</aspectRatio>
+			<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+			<parameter name="Properties" id="1">
+				<parameter name="Transform" id="100">
+					<parameter name="Position" id="101">
+						<parameter name="X" id="1" value="-624"/>
+						<parameter name="Y" id="2" value="-7.5"/>
+					</parameter>
+				</parameter>
+				<parameter name="Blending" id="200">
+					<parameter name="Opacity" id="202" value="0"/>
+				</parameter>
+			</parameter>
+			<paragraphStyle id="10045">
+				<parameter name="Alignment" id="401" value="0"/>
+			</paragraphStyle>
+			<style name="Style 0" id="10046" factoryID="9">
+				<parameter name="Font" id="83">
+					<font>Futura-Bold</font>
+				</parameter>
+				<parameter name="Spacing" id="81">
+					<parameter name="Tracking" id="79" value="0.076923"/>
+				</parameter>
+				<parameter name="Size" id="3" value="26"/>
+				<parameter name="Face" id="14">
+					<parameter name="Color" id="16">
+						<parameter name="Red" id="1" value="0.878431"/>
+						<parameter name="Green" id="2" value="0.815686"/>
+						<parameter name="Blue" id="3" value="0.690196"/>
+						<parameter name="Color Space" id="11" value="3"/>
+					</parameter>
+					<parameter name="Opacity" id="19" value="1"/>
+				</parameter>
+				<parameter name="Drop Shadow" id="21" flags="8589938704">
+					<foldFlags>131083</foldFlags>
+					<parameter name="Color" id="23">
+						<parameter name="Red" id="1" value="0.101961"/>
+						<parameter name="Green" id="2" value="0.164706"/>
+						<parameter name="Blue" id="3" value="0.164706"/>
+					</parameter>
+					<parameter name="Opacity" id="26" value="0.5"/>
+					<parameter name="Blur" id="75">
+						<parameter name="X" id="1" value="2"/>
+						<parameter name="Y" id="2" value="2"/>
+					</parameter>
+					<parameter name="Distance" id="27" value="1.414214"/>
+					<parameter name="Angle" id="29" value="-0.785398"/>
+				</parameter>
+			</style>
+			<style name="Style 1" id="10047" factoryID="9">
+				<parameter name="Font" id="83">
+					<font>Futura-Bold</font>
+				</parameter>
+				<parameter name="Spacing" id="81">
+					<parameter name="Tracking" id="79" value="0.076923"/>
+				</parameter>
+				<parameter name="Size" id="3" value="26"/>
+				<parameter name="Face" id="14">
+					<parameter name="Color" id="16">
+						<parameter name="Red" id="1" value="0.878431"/>
+						<parameter name="Green" id="2" value="0.815686"/>
+						<parameter name="Blue" id="3" value="0.690196"/>
+						<parameter name="Color Space" id="11" value="3"/>
+					</parameter>
+					<parameter name="Opacity" id="19" value="1"/>
+				</parameter>
+				<parameter name="Drop Shadow" id="21" flags="8589938704">
+					<foldFlags>131083</foldFlags>
+					<parameter name="Color" id="23">
+						<parameter name="Red" id="1" value="0.101961"/>
+						<parameter name="Green" id="2" value="0.164706"/>
+						<parameter name="Blue" id="3" value="0.164706"/>
+					</parameter>
+					<parameter name="Opacity" id="26" value="0.5"/>
+					<parameter name="Blur" id="75">
+						<parameter name="X" id="1" value="2"/>
+						<parameter name="Y" id="2" value="2"/>
+					</parameter>
+					<parameter name="Distance" id="27" value="1.414214"/>
+					<parameter name="Angle" id="29" value="-0.785398"/>
+				</parameter>
+			</style>
+			<styleRun style="10046" offset="0" length="39"/>
+			<styleRun style="10047" offset="39" length="1"/>
+			<parameter name="Object" id="2">
+				<parameter name="Text" id="369">
+					<text>SwiftSecuencia x Pipeline Neo Migration </text>
+				</parameter>
+				<parameter name="Alignment" id="373">
+					<parameter name="Vertical Alignment" id="2" value="1"/>
+				</parameter>
+				<parameter name="Paragraphs" id="354">
+					<parameter name="Paragraph" id="10045">
+						<parameter name="Alignment" id="401" value="0"/>
+					</parameter>
+				</parameter>
+			</parameter>
+		</scenenode>
+		<scenenode name="EXODUS " id="10048" factoryID="8" version="5">
+			<aspectRatio>1</aspectRatio>
+			<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+			<parameter name="Properties" id="1">
+				<parameter name="Transform" id="100">
+					<parameter name="Position" id="101">
+						<parameter name="X" id="1" value="-624"/>
+						<parameter name="Y" id="2" value="49.5"/>
+					</parameter>
+				</parameter>
+				<parameter name="Blending" id="200">
+					<parameter name="Opacity" id="202" value="0"/>
+				</parameter>
+			</parameter>
+			<paragraphStyle id="10049">
+				<parameter name="Alignment" id="401" value="0"/>
+			</paragraphStyle>
+			<style name="Style 0" id="10050" factoryID="9">
+				<parameter name="Font" id="83">
+					<font>Futura-Bold</font>
+				</parameter>
+				<parameter name="Spacing" id="81">
+					<parameter name="Tracking" id="79" value="0.055556"/>
+				</parameter>
+				<parameter name="Size" id="3" value="72"/>
+				<parameter name="Face" id="14">
+					<parameter name="Color" id="16">
+						<parameter name="Red" id="1" value="0.960784"/>
+						<parameter name="Green" id="2" value="0.901961"/>
+						<parameter name="Blue" id="3" value="0.815686"/>
+						<parameter name="Color Space" id="11" value="3"/>
+					</parameter>
+					<parameter name="Opacity" id="19" value="1"/>
+				</parameter>
+				<parameter name="Drop Shadow" id="21" flags="8589938704">
+					<foldFlags>131083</foldFlags>
+					<parameter name="Color" id="23">
+						<parameter name="Red" id="1" value="0.101961"/>
+						<parameter name="Green" id="2" value="0.164706"/>
+						<parameter name="Blue" id="3" value="0.164706"/>
+					</parameter>
+					<parameter name="Opacity" id="26" value="0.5"/>
+					<parameter name="Blur" id="75">
+						<parameter name="X" id="1" value="2"/>
+						<parameter name="Y" id="2" value="2"/>
+					</parameter>
+					<parameter name="Distance" id="27" value="1.414214"/>
+					<parameter name="Angle" id="29" value="-0.785398"/>
+				</parameter>
+			</style>
+			<styleRun style="10050" offset="0" length="7"/>
+			<parameter name="Object" id="2">
+				<parameter name="Text" id="369">
+					<text>EXODUS </text>
+				</parameter>
+				<parameter name="Alignment" id="373">
+					<parameter name="Vertical Alignment" id="2" value="1"/>
+				</parameter>
+				<parameter name="Paragraphs" id="354">
+					<parameter name="Paragraph" id="10049">
+						<parameter name="Alignment" id="401" value="0"/>
+					</parameter>
+				</parameter>
+			</parameter>
+		</scenenode>
+		<scenenode name="PIPELINE " id="10051" factoryID="8" version="5">
+			<aspectRatio>1</aspectRatio>
+			<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+			<parameter name="Properties" id="1">
+				<parameter name="Transform" id="100">
+					<parameter name="Position" id="101">
+						<parameter name="X" id="1" value="-624"/>
+						<parameter name="Y" id="2" value="129.5"/>
+					</parameter>
+				</parameter>
+				<parameter name="Blending" id="200">
+					<parameter name="Opacity" id="202" value="0"/>
+				</parameter>
+			</parameter>
+			<paragraphStyle id="10052">
+				<parameter name="Alignment" id="401" value="0"/>
+			</paragraphStyle>
+			<style name="Style 0" id="10053" factoryID="9">
+				<parameter name="Font" id="83">
+					<font>Futura-Bold</font>
+				</parameter>
+				<parameter name="Spacing" id="81">
+					<parameter name="Tracking" id="79" value="0.055556"/>
+				</parameter>
+				<parameter name="Size" id="3" value="72"/>
+				<parameter name="Face" id="14">
+					<parameter name="Color" id="16">
+						<parameter name="Red" id="1" value="0.960784"/>
+						<parameter name="Green" id="2" value="0.901961"/>
+						<parameter name="Blue" id="3" value="0.815686"/>
+						<parameter name="Color Space" id="11" value="3"/>
+					</parameter>
+					<parameter name="Opacity" id="19" value="1"/>
+				</parameter>
+				<parameter name="Drop Shadow" id="21" flags="8589938704">
+					<foldFlags>131083</foldFlags>
+					<parameter name="Color" id="23">
+						<parameter name="Red" id="1" value="0.101961"/>
+						<parameter name="Green" id="2" value="0.164706"/>
+						<parameter name="Blue" id="3" value="0.164706"/>
+					</parameter>
+					<parameter name="Opacity" id="26" value="0.5"/>
+					<parameter name="Blur" id="75">
+						<parameter name="X" id="1" value="2"/>
+						<parameter name="Y" id="2" value="2"/>
+					</parameter>
+					<parameter name="Distance" id="27" value="1.414214"/>
+					<parameter name="Angle" id="29" value="-0.785398"/>
+				</parameter>
+			</style>
+			<styleRun style="10053" offset="0" length="9"/>
+			<parameter name="Object" id="2">
+				<parameter name="Text" id="369">
+					<text>PIPELINE </text>
+				</parameter>
+				<parameter name="Alignment" id="373">
+					<parameter name="Vertical Alignment" id="2" value="1"/>
+				</parameter>
+				<parameter name="Paragraphs" id="354">
+					<parameter name="Paragraph" id="10052">
+						<parameter name="Alignment" id="401" value="0"/>
+					</parameter>
+				</parameter>
+			</parameter>
+		</scenenode>
+		<scenenode name="OPERATION " id="10054" factoryID="8" version="5">
+			<aspectRatio>1</aspectRatio>
+			<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+			<parameter name="Properties" id="1">
+				<parameter name="Transform" id="100">
+					<parameter name="Position" id="101">
+						<parameter name="X" id="1" value="-624"/>
+						<parameter name="Y" id="2" value="220.5"/>
+					</parameter>
+				</parameter>
+				<parameter name="Blending" id="200">
+					<parameter name="Opacity" id="202" value="0"/>
+				</parameter>
+			</parameter>
+			<paragraphStyle id="10055">
+				<parameter name="Alignment" id="401" value="0"/>
+			</paragraphStyle>
+			<style name="Style 0" id="10056" factoryID="9">
+				<parameter name="Font" id="83">
+					<font>Futura-Bold</font>
+				</parameter>
+				<parameter name="Spacing" id="81">
+					<parameter name="Tracking" id="79" value="0.0625"/>
+				</parameter>
+				<parameter name="Size" id="3" value="64"/>
+				<parameter name="Face" id="14">
+					<parameter name="Color" id="16">
+						<parameter name="Red" id="1" value="1"/>
+						<parameter name="Green" id="2" value="1"/>
+						<parameter name="Blue" id="3" value="1"/>
+						<parameter name="Color Space" id="11" value="3"/>
+					</parameter>
+					<parameter name="Opacity" id="19" value="1"/>
+				</parameter>
+				<parameter name="Drop Shadow" id="21" flags="8589938704">
+					<foldFlags>131083</foldFlags>
+					<parameter name="Color" id="23">
+						<parameter name="Red" id="1" value="0.101961"/>
+						<parameter name="Green" id="2" value="0.164706"/>
+						<parameter name="Blue" id="3" value="0.164706"/>
+					</parameter>
+					<parameter name="Opacity" id="26" value="0.5"/>
+					<parameter name="Blur" id="75">
+						<parameter name="X" id="1" value="2"/>
+						<parameter name="Y" id="2" value="2"/>
+					</parameter>
+					<parameter name="Distance" id="27" value="1.414214"/>
+					<parameter name="Angle" id="29" value="-0.785398"/>
+				</parameter>
+			</style>
+			<styleRun style="10056" offset="0" length="10"/>
+			<parameter name="Object" id="2">
+				<parameter name="Text" id="369">
+					<text>OPERATION </text>
+				</parameter>
+				<parameter name="Alignment" id="373">
+					<parameter name="Vertical Alignment" id="2" value="1"/>
+				</parameter>
+				<parameter name="Paragraphs" id="354">
+					<parameter name="Paragraph" id="10055">
+						<parameter name="Alignment" id="401" value="0"/>
+					</parameter>
+				</parameter>
+			</parameter>
+		</scenenode>
+		<scenenode name="Path" id="10057" factoryID="1" version="5">
+			<aspectRatio>1</aspectRatio>
+			<timing in="0 1 1 0" out="1529856 153600 1 0" offset="0 1 1 0"/>
+			<parameter name="Properties" id="1">
+				<parameter name="Transform" id="100">
+					<parameter name="Position" id="101">
+						<parameter name="X" id="1" value="-325"/>
+						<parameter name="Y" id="2" value="0"/>
+					</parameter>
+				</parameter>
+			</parameter>
+			<parameter name="Object" id="2">
+				<parameter name="Shape" id="353">
+					<parameter name="Animation" id="117" value="0">
+						<curve_X>
+							<vertex index="0" id="10058" flags="169">
+								<vertex_folder name="Vertex" id="10058">
+									<parameter name="Enabled" id="1" value="1"/>
+									<parameter name="Value" id="2" value="-375"/>
+									<parameter name="Input Tangent" id="4" value="0"/>
+									<parameter name="Output Tangent" id="5" value="0"/>
+								</vertex_folder>
+							</vertex>
+							<vertex index="1" id="10060" flags="169">
+								<vertex_folder name="Vertex" id="10060">
+									<parameter name="Enabled" id="1" value="1"/>
+									<parameter name="Value" id="2" value="375"/>
+									<parameter name="Input Tangent" id="4" value="0"/>
+									<parameter name="Output Tangent" id="5" value="0"/>
+								</vertex_folder>
+							</vertex>
+							<vertex index="2" id="10062" flags="169">
+								<vertex_folder name="Vertex" id="10062">
+									<parameter name="Enabled" id="1" value="1"/>
+									<parameter name="Value" id="2" value="375"/>
+									<parameter name="Input Tangent" id="4" value="0"/>
+									<parameter name="Output Tangent" id="5" value="0"/>
+								</vertex_folder>
+							</vertex>
+							<vertex index="3" id="10064" flags="169">
+								<vertex_folder name="Vertex" id="10064">
+									<parameter name="Enabled" id="1" value="1"/>
+									<parameter name="Value" id="2" value="-375"/>
+									<parameter name="Input Tangent" id="4" value="0"/>
+									<parameter name="Output Tangent" id="5" value="0"/>
+								</vertex_folder>
+							</vertex>
+						</curve_X>
+						<curve_Y>
+							<vertex index="0" id="10059" flags="169">
+								<vertex_folder name="Vertex" id="10059">
+									<parameter name="Enabled" id="1" value="1"/>
+									<parameter name="Value" id="2" value="450"/>
+									<parameter name="Input Tangent" id="4" value="0"/>
+									<parameter name="Output Tangent" id="5" value="0"/>
+								</vertex_folder>
+							</vertex>
+							<vertex index="1" id="10061" flags="169">
+								<vertex_folder name="Vertex" id="10061">
+									<parameter name="Enabled" id="1" value="1"/>
+									<parameter name="Value" id="2" value="450"/>
+									<parameter name="Input Tangent" id="4" value="0"/>
+									<parameter name="Output Tangent" id="5" value="0"/>
+								</vertex_folder>
+							</vertex>
+							<vertex index="2" id="10063" flags="169">
+								<vertex_folder name="Vertex" id="10063">
+									<parameter name="Enabled" id="1" value="1"/>
+									<parameter name="Value" id="2" value="-450"/>
+									<parameter name="Input Tangent" id="4" value="0"/>
+									<parameter name="Output Tangent" id="5" value="0"/>
+								</vertex_folder>
+							</vertex>
+							<vertex index="3" id="10065" flags="169">
+								<vertex_folder name="Vertex" id="10065">
+									<parameter name="Enabled" id="1" value="1"/>
+									<parameter name="Value" id="2" value="-450"/>
+									<parameter name="Input Tangent" id="4" value="0"/>
+									<parameter name="Output Tangent" id="5" value="0"/>
+								</vertex_folder>
+							</vertex>
+						</curve_Y>
+						<closed>1</closed>
+					</parameter>
+					<parameter name="Closed" id="116" value="1"/>
+					<parameter name="Fill" id="113" flags="8589938704">
+						<parameter name="Fill Mode" id="114" value="1"/>
+						<parameter name="Fill Color" id="111"/>
+						<parameter name="Gradient" id="104">
+							<foldFlags>11</foldFlags>
+							<parameter name="RGB" id="1">
+								<parameter name="RGB1" id="1" factoryID="2">
+									<parameter name="Location" id="1" factoryID="4">
+										<curve type="1" value="1e-05">
+											<min>0</min>
+											<max>1</max>
+										</curve>
+									</parameter>
+									<parameter name="Middle" id="2" factoryID="4">
+										<curve type="1" value="0.5">
+											<min>0</min>
+											<max>1</max>
+										</curve>
+									</parameter>
+									<parameter name="Interpolation" id="100" factoryID="5">
+										<curve type="0" value="1">
+											<min>0</min>
+											<max>4294967295</max>
+										</curve>
+									</parameter>
+									<parameter name="Color" id="3" factoryID="6">
+										<parameter name="Red" id="1" factoryID="7">
+											<curve type="1" value="0.101961">
+												<min>-6</min>
+												<max>8</max>
+											</curve>
+										</parameter>
+										<parameter name="Green" id="2" factoryID="7">
+											<curve type="1" value="0.180392">
+												<min>-6</min>
+												<max>8</max>
+											</curve>
+										</parameter>
+										<parameter name="Blue" id="3" factoryID="7">
+											<curve type="1" value="0.180392">
+												<min>-6</min>
+												<max>8</max>
+											</curve>
+										</parameter>
+										<parameter name="Color Space" id="11" factoryID="5">
+											<curve type="0" value="3">
+												<min>0</min>
+												<max>4294967295</max>
+											</curve>
+										</parameter>
+									</parameter>
+								</parameter>
+								<parameter name="RGB2" id="2" factoryID="2">
+									<parameter name="Location" id="1" factoryID="4">
+										<curve type="1" value="0.6">
+											<min>0</min>
+											<max>1</max>
+										</curve>
+									</parameter>
+									<parameter name="Middle" id="2" factoryID="4">
+										<curve type="1" value="0.5">
+											<min>0</min>
+											<max>1</max>
+										</curve>
+									</parameter>
+									<parameter name="Interpolation" id="100" factoryID="5">
+										<curve type="0" value="1">
+											<min>0</min>
+											<max>4294967295</max>
+										</curve>
+									</parameter>
+									<parameter name="Color" id="3" factoryID="6">
+										<parameter name="Red" id="1" factoryID="7">
+											<curve type="1" value="0.101961">
+												<min>-6</min>
+												<max>8</max>
+											</curve>
+										</parameter>
+										<parameter name="Green" id="2" factoryID="7">
+											<curve type="1" value="0.180392">
+												<min>-6</min>
+												<max>8</max>
+											</curve>
+										</parameter>
+										<parameter name="Blue" id="3" factoryID="7">
+											<curve type="1" value="0.180392">
+												<min>-6</min>
+												<max>8</max>
+											</curve>
+										</parameter>
+										<parameter name="Color Space" id="11" factoryID="5">
+											<curve type="0" value="3">
+												<min>0</min>
+												<max>4294967295</max>
+											</curve>
+										</parameter>
+									</parameter>
+								</parameter>
+								<parameter name="RGB3" id="3" factoryID="2">
+									<parameter name="Location" id="1" factoryID="4">
+										<curve type="1" value="1">
+											<min>0</min>
+											<max>1</max>
+										</curve>
+									</parameter>
+									<parameter name="Middle" id="2" factoryID="4">
+										<curve type="1" value="0.5">
+											<min>0</min>
+											<max>1</max>
+										</curve>
+									</parameter>
+									<parameter name="Interpolation" id="100" factoryID="5">
+										<curve type="0" value="1">
+											<min>0</min>
+											<max>4294967295</max>
+										</curve>
+									</parameter>
+									<parameter name="Color" id="3" factoryID="6">
+										<parameter name="Red" id="1" factoryID="7">
+											<curve type="1" value="0.101961">
+												<min>-6</min>
+												<max>8</max>
+											</curve>
+										</parameter>
+										<parameter name="Green" id="2" factoryID="7">
+											<curve type="1" value="0.180392">
+												<min>-6</min>
+												<max>8</max>
+											</curve>
+										</parameter>
+										<parameter name="Blue" id="3" factoryID="7">
+											<curve type="1" value="0.180392">
+												<min>-6</min>
+												<max>8</max>
+											</curve>
+										</parameter>
+										<parameter name="Color Space" id="11" factoryID="5">
+											<curve type="0" value="3">
+												<min>0</min>
+												<max>4294967295</max>
+											</curve>
+										</parameter>
+									</parameter>
+								</parameter>
+							</parameter>
+							<parameter name="Opacity" id="2">
+								<parameter name="Opacity1" id="1" factoryID="3">
+									<parameter name="Location" id="1" factoryID="4">
+										<curve type="1" value="1e-05">
+											<min>0</min>
+											<max>1</max>
+										</curve>
+									</parameter>
+									<parameter name="Middle" id="2" factoryID="4">
+										<curve type="1" value="0.5">
+											<min>0</min>
+											<max>1</max>
+										</curve>
+									</parameter>
+									<parameter name="Interpolation" id="100" factoryID="5">
+										<curve type="0" value="1">
+											<min>0</min>
+											<max>4294967295</max>
+										</curve>
+									</parameter>
+									<parameter name="Opacity" id="3" factoryID="4">
+										<curve type="0" value="0.55">
+											<min>0</min>
+											<max>1</max>
+										</curve>
+									</parameter>
+								</parameter>
+								<parameter name="Opacity2" id="2" factoryID="3">
+									<parameter name="Location" id="1" factoryID="4">
+										<curve type="1" value="0.6">
+											<min>0</min>
+											<max>1</max>
+										</curve>
+									</parameter>
+									<parameter name="Middle" id="2" factoryID="4">
+										<curve type="1" value="0.5">
+											<min>0</min>
+											<max>1</max>
+										</curve>
+									</parameter>
+									<parameter name="Interpolation" id="100" factoryID="5">
+										<curve type="0" value="1">
+											<min>0</min>
+											<max>4294967295</max>
+										</curve>
+									</parameter>
+									<parameter name="Opacity" id="3" factoryID="4">
+										<curve type="0" value="0.35">
+											<min>0</min>
+											<max>1</max>
+										</curve>
+									</parameter>
+								</parameter>
+								<parameter name="Opacity3" id="3" factoryID="3">
+									<parameter name="Location" id="1" factoryID="4">
+										<curve type="1" value="1">
+											<min>0</min>
+											<max>1</max>
+										</curve>
+									</parameter>
+									<parameter name="Middle" id="2" factoryID="4">
+										<curve type="1" value="0.5">
+											<min>0</min>
+											<max>1</max>
+										</curve>
+									</parameter>
+									<parameter name="Interpolation" id="100" factoryID="5">
+										<curve type="0" value="1">
+											<min>0</min>
+											<max>4294967295</max>
+										</curve>
+									</parameter>
+									<parameter name="Opacity" id="3" factoryID="4">
+										<curve type="0" value="0">
+											<min>0</min>
+											<max>1</max>
+										</curve>
+									</parameter>
+								</parameter>
+							</parameter>
+							<parameter name="Start" id="4">
+								<parameter name="X" id="1" value="-375"/>
+								<parameter name="Y" id="2" value="450"/>
+							</parameter>
+							<parameter name="End" id="5">
+								<parameter name="X" id="1" value="375"/>
+								<parameter name="Y" id="2" value="450"/>
+							</parameter>
+						</parameter>
+					</parameter>
+				</parameter>
+			</parameter>
+		</scenenode>
+	</layer>
+</scene>
+</ozml>
+

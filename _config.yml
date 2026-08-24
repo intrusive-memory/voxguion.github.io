@@ -1,0 +1,60 @@
+# VoxGuion Marketing Website
+title: VoxGuion
+description: Transform your screenplays into audio productions with AI-powered voices
+url: "https://voxguion.app"
+baseurl: ""
+
+# SEO / Social (used by jekyll-seo-tag)
+twitter:
+  card: summary_large_image
+social:
+  name: VoxGuion
+  links:
+    - https://github.com/intrusive-memory/voxguion
+og_image: /assets/images/og-image.png
+
+# Company info
+company_name: Intrusive Memory Productions
+support_email: support@voxguion.app
+
+# Pricing
+pricing:
+  pro_monthly: 4.99
+  pro_yearly: 39.99
+
+# System requirements
+requirements:
+  macos: "26.0+"
+  ios: "26.0+"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "doc"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

@@ -1,0 +1,32 @@
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h4>VoxGuion</h4>
+      <p>Transform your screenplays into audio productions with AI-powered voices.</p>
+      <p class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.company_name }}</p>
+    </div>
+    <div class="footer-section">
+      <h4>Product</h4>
+      <ul>
+        <li><a href="{{ '/pricing' | relative_url }}">Pricing</a></li>
+        <li><a href="{{ '/docs/' | relative_url }}">Documentation</a></li>
+        <li><a href="{{ '/support' | relative_url }}">Support</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="{{ '/privacy' | relative_url }}">Privacy Policy</a></li>
+        <li><a href="{{ '/terms' | relative_url }}">Terms of Service</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="{{ '/press-kit' | relative_url }}">Press Kit</a></li>
+        <li><a href="mailto:{{ site.support_email }}">Contact</a></li>
+        <li><a href="https://intrusive-memory.productions">Company</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>

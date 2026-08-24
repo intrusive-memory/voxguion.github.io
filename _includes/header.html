@@ -1,0 +1,21 @@
+<header class="site-header">
+  <nav class="nav-container">
+    <div class="logo-wrapper">
+      <a href="{{ '/' | relative_url }}" class="logo">VoxGuion</a>
+      <span class="logo-from">(<a href="https://intrusive-memory.productions">from intrusive-memory.productions</a>)</span>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+      <li><a href="{{ '/pricing' | relative_url }}" {% if page.url == '/pricing/' %}class="active"{% endif %}>Pricing</a></li>
+      <li><a href="{{ '/docs/' | relative_url }}" {% if page.url contains '/docs' %}class="active"{% endif %}>Docs</a></li>
+      <li><a href="{{ '/support' | relative_url }}" {% if page.url == '/support/' %}class="active"{% endif %}>Support</a></li>
+      <li><a href="{{ '/press-kit' | relative_url }}" {% if page.url == '/press-kit/' %}class="active"{% endif %}>Press</a></li>
+      <li><a href="https://intrusive-memory.productions">Company</a></li>
+    </ul>
+  </nav>
+</header>
