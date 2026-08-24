@@ -255,7 +255,7 @@ Continued use of the App after changes constitutes acceptance of the new Terms.
 
 ### Governing Law
 
-These Terms are governed by the laws of [State/Country], without regard to conflict of law principles.
+These Terms are governed by the laws of the State of California, USA, without regard to conflict of law principles.
 
 ### Dispute Resolution
 
