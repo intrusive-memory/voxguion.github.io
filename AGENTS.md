@@ -26,6 +26,10 @@ VoxGuion.
 
 - Work on `development`; open a `development → main` PR to release.
 - Merging to `main` publishes the live site via GitHub Pages.
+- **Before every ship (any merge to `main`): run `bundle update` to bring all Ruby gems
+  to latest, verify `bundle exec jekyll build --strict_front_matter` passes, and include
+  the updated `Gemfile.lock` in the release.** This is a standing rule across all
+  `~/Projects/websites/` repos — stale lockfiles accumulate Dependabot vulnerabilities.
 
 ## Favicon / app-icon assets
 
