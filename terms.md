@@ -9,7 +9,7 @@ permalink: /terms/
 
 # Terms of Service
 
-<p class="last-updated">Last updated: December 8, 2024</p>
+<p class="last-updated">Last updated: August 24, 2026</p>
 
 Please read these Terms of Service ("Terms") carefully before using VoxGuion (the "App") operated by Intrusive Memory Productions ("we," "us," or "our").
 
