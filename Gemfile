@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
-gem "logger"
-gem "csv"
-gem "base64"
+# Latest GitHub Pages toolchain — matches what the legacy Pages builder runs in
+# production (pins jekyll and bundles jekyll-seo-tag, jekyll-sitemap, etc.)
+gem "github-pages", group: :jekyll_plugins
 
-group :jekyll_plugins do
-  gem "jekyll-seo-tag"
-  gem "jekyll-sitemap"
-end
+# Ruby 3.4+ stdlib shims and local `jekyll serve` support
+gem "base64"
+gem "csv"
+gem "logger"
+gem "webrick"
