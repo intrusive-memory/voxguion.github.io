@@ -9,7 +9,7 @@ permalink: /privacy/
 
 # Privacy Policy
 
-<p class="last-updated">Last updated: December 8, 2024</p>
+<p class="last-updated">Last updated: August 24, 2026</p>
 
 Intrusive Memory Productions ("we," "us," or "our") operates VoxGuion (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
