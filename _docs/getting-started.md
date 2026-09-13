@@ -9,7 +9,7 @@ Welcome to VoxGuion! This guide will walk you through creating your first audio 
 
 ## Installation
 
-1. Download VoxGuion from the [Mac App Store](#) or [iOS App Store](#)
+1. VoxGuion is coming soon to the Mac App Store and the App Store for iPhone and iPad
 2. Open the app and grant any requested permissions
 3. You're ready to start!
 
