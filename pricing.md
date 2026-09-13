@@ -25,7 +25,7 @@ permalink: /pricing/
           <li><span class="check">✓</span> Export to MP3, WAV, M4A</li>
           <li><span class="x">—</span> Apple TTS voices only</li>
         </ul>
-        <a href="#" class="btn btn-cta">Download Free</a>
+        <span class="btn btn-soon" aria-disabled="true">Coming Soon</span>
       </div>
       <div class="pricing-card featured">
         <div class="pricing-badge">Most Popular</div>
@@ -41,7 +41,7 @@ permalink: /pricing/
           <li><span class="check">✓</span> Early access to new features</li>
         </ul>
         <p style="font-size: 0.8rem; color: var(--color-text-light); margin-top: 1rem;">* Standard ElevenLabs API generation charges apply</p>
-        <a href="#" class="btn btn-cta">Start Pro Trial</a>
+        <span class="btn btn-soon" aria-disabled="true">Coming Soon</span>
       </div>
     </div>
   </div>

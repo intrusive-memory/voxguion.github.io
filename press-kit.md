@@ -39,8 +39,8 @@ permalink: /press-kit/
 
       <h3>Availability</h3>
       <ul>
-        <li>Mac App Store (macOS {{ site.requirements.macos }}+)</li>
-        <li>App Store (iOS/iPadOS {{ site.requirements.ios }}+)</li>
+        <li>Coming soon to the Mac App Store (macOS {{ site.requirements.macos }}+)</li>
+        <li>Coming soon to the App Store (iOS/iPadOS {{ site.requirements.ios }}+)</li>
       </ul>
     </div>
   </div>
